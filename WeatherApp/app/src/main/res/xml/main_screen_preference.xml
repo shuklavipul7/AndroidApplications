@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:title="Temperature Unit"
+        android:summary="Choose between Celsius and Fahrenheit"
+        android:entries="@array/list_preference_entries"
+        android:entryValues="@array/list_preference_entries"
+        android:key="preference_temperature" />
+
+    <com.mad.group16.weatherapp.CustomEdittextPreference
+        android:title="Current City"
+        android:summary="Change Current City"/>
+
+</PreferenceScreen>

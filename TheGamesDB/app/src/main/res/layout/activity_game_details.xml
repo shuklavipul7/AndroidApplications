@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="group16.mad.com.thegamesdb.GameDetails">
+
+    <TextView
+        android:id="@+id/gameNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/overviewTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="130dp"
+        android:text="@string/overviewText"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="160dp">
+
+        <LinearLayout
+            android:id="@+id/overviewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/genrePublisherLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_marginTop="315dp"
+        />
+
+    <Button
+        android:id="@+id/playTrailerButton"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:text="@string/playTrailerText"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:onClick="playGameTrailer"/>
+
+    <Button
+        android:id="@+id/similarGamesButton"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:text="@string/similarGamesText"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:onClick="displaySimilarGames"/>
+
+    <ImageView
+        android:id="@+id/gameImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/gameNameId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:text="@string/finish"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:onClick="finishActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/similarGamesButton"
+        android:layout_alignStart="@+id/similarGamesButton" />
+
+
+</RelativeLayout>

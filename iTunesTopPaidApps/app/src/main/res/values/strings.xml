@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">iTunes Top Paid Apps</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="refreshList">Refresh List</string>
+    <string name="favourites">Favourites</string>
+    <string name="sortIncreasingly">Sort Increasingly</string>
+    <string name="sortDecreasingly">Sort Decreasingly</string>
+</resources>

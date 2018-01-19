@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="gameNameId" type="id">gameNameId</item>
+    <item name="goButtonId" type="id">goButtonId</item>
+    <item name="gameRadioGroupId" type="id">gameRadioGroupId</item>
+    <item name="overviewTextId" type="id">overviewTextId</item>
+</resources>

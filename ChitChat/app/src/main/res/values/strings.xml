@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ChitChat</string>
+    <string name="email">Email:</string>
+    <string name="emailenter">enter email id</string>
+    <string name="password">Password:</string>
+    <string name="passwordhint" />
+    <string name="passwordhint1">enter password here</string>
+    <string name="passwordhint2">Enter password here</string>
+    <string name="loginbutton">Login</string>
+    <string name="orsignup">Or, Sign Up</string>
+    <string name="firstname">First Name:</string>
+    <string name="firstnametext">Enter first name</string>
+    <string name="lastname">Last Name</string>
+    <string name="lastnametext">Enter Last name</string>
+    <string name="emailSignup">Email:</string>
+    <string name="emailidsignup">Enter emailId</string>
+    <string name="password1">Password:</string>
+    <string name="password2">Enter password here</string>
+    <string name="signupbutton">Sign Up</string>
+    <string name="viewbutton">View</string>
+    <string name="subscribed_channels">Your Subscribed Channels:</string>
+    <string name="addmore">Add More</string>
+    <string name="done">Done</string>
+    <string name="join">Join</string>
+</resources>

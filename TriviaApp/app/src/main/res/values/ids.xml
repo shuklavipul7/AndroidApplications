@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="welcomeToTriviaAppID" type="id">welcomeToTriviaAppID</item>
+    <item name="exitButtonID" type="id">exitButtonID</item>
+    <item name="startTriviaButtonID" type="id">startTriviaButtonID</item>
+    <item name="triviaLogoId" type="id">triviaLogoId</item>
+    <item name="triviaReadyTextId" type="id">triviaReadyTextId</item>
+    <item name="QId" type="id">QId</item>
+    <item name="questionTextID" type="id">questionTextID</item>
+    <item name="choicesId" type="id">choicesId</item>
+    <item name="choiceGroupId" type="id">choiceGroupId</item>
+    <item name="correctAnswersID" type="id">correctAnswersID</item>
+    <item name="performacePercentID" type="id">performacePercentID</item>
+    <item name="loadingID" type="id">loadingID</item>
+</resources>

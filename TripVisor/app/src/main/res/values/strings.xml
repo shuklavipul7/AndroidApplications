@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TripVisor</string>
+    <string name="veiwprofile">View Profile</string>
+    <string name="findNewFriends">Find New Friends</string>
+    <string name="friendRequests">Friend Requests</string>
+    <string name="exploreTrips">Explore Trips</string>
+    <string name="explorePlaces">Explore Places</string>
+    <string name="logout">Logout</string>
+</resources>

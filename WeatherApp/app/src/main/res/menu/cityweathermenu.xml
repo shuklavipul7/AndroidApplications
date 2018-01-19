@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/saveCity"
+        android:enabled="true"
+        android:title="Save City"
+        android:visible="true"
+        android:onClick="saveCity"/>
+
+    <item
+        android:id="@+id/setAsCurrentCity"
+        android:enabled="true"
+        android:title="Set as Current City"
+        android:visible="true"
+        android:onClick="setAsCurrentCity"/>
+
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        android:title="Settings"
+        android:visible="true"
+        android:onClick="openSettings"/>
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1004873006706",
+    "firebase_url": "https://tripvisor-b51cc.firebaseio.com",
+    "project_id": "tripvisor-b51cc",
+    "storage_bucket": "tripvisor-b51cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004873006706:android:153c8570720ad1a7",
+        "android_client_info": {
+          "package_name": "group16.mad.com.tripvisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004873006706-ca18lh431op1bisinpf77mvrp6j7k87d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "group16.mad.com.tripvisor",
+            "certificate_hash": "056b9cc0ef4cb57f6ecb4c577df7157fb11d30e2"
+          }
+        },
+        {
+          "client_id": "1004873006706-8ck4vjbg6s7koq762i90ht5735ls2ed4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk2MBV9LRNBSxROiKefz7GL0O6LIkDhts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004873006706-8ck4vjbg6s7koq762i90ht5735ls2ed4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

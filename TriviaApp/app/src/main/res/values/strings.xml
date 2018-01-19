@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="welcomeToTriviaAppText">Welcome to Trivia App</string>
+    <string name="exitButtonText">Exit</string>
+    <string name="startTriviaButtonText">Start Trivia</string>
+    <string name="triviaReadyText">Trivia Ready</string>
+    <string name="previousButton">Previous</string>
+    <string name="nextButton">Next</string>
+    <string name="finish">Finish</string>
+    <string name="qLabel">Q</string>
+    <string name="correctAnswersText">Correct Answers</string>
+    <string name="loadingText">Loading Image</string>
+</resources>

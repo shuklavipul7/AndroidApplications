@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/refresh"
+    android:orderInCategory="100"
+    android:title="@string/refreshList"
+    app:showAsAction="never"
+        android:onClick="refresh"/>
+
+    <item
+        android:id="@+id/favourites"
+        android:orderInCategory="100"
+        android:title="@string/favourites"
+        app:showAsAction="never"
+        android:onClick="showFavourites"/>
+
+    <item
+        android:id="@+id/sortincreasingly"
+        android:orderInCategory="100"
+        android:title="@string/sortIncreasingly"
+        app:showAsAction="never"
+        android:onClick="sortIncreasingly"/>
+
+    <item
+        android:id="@+id/sortDecreasingly"
+        android:orderInCategory="100"
+        android:title="@string/sortDecreasingly"
+        app:showAsAction="never"
+        android:onClick="sortDecreasingly"/>
+</menu>
